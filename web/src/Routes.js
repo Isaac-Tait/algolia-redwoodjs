@@ -24,7 +24,6 @@ const Routes = () => {
         <Route path="/contact" page={ContactPage} name="contact" />
         <Route path="/posts/{slug}" page={PostPage} name="post" />
         <Route path="/tags/{tag}" page={TaggedPostsPage} name="tag" />
-        <Route path="/search/{term}" page={SearchPage} name="search" />
       </Set>
 
       <Route notfound page={NotFoundPage} />
